@@ -1,0 +1,17 @@
+.{
+    .name = .chrony,
+    .version = "4.9.0",
+    .fingerprint = 0xc6fa8b608129e21e,
+    .minimum_zig_version = "0.17.0",
+    .dependencies = .{
+        .upstream = .{
+            .url = "https://chrony-project.org/releases/chrony-4.9.tar.gz",
+            .hash = "N-V-__8AALqWKgB_sq0hl-bNwJ4cj6o1ohhoDGezQF4Qq3GF",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
